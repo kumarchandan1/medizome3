@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/53e4d81b31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.scss">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400|Montserrat:100|Raleway|Roboto:100" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link rel="manifest" href="manifest.json" />
+    
+    
+<script src="sw.js"></script>
+   
+    <title>Medizome</title>
+ 
+   
+</head>
+<body>
+   <div class="contan">
+    <div  style="background-color: skyblue;" class=" clearfix cla">
+
+<div style="padding: 10px;" class="float-start">
+        <marquee style="color:red;" >Welcome to Medizome .</marquee>
+    </div>
+    <li class="float-start" style="list-style-type: none; padding: 10px;"><i class="fas fa-hand-holding-heart"></i>Medizome helpline</li>
+   <li class="float-start" style="list-style-type: none; padding: 10px;"><i class="fas fa-phone-volume"> </i> 6200480241</li> 
+   <li class="float-start" style="list-style-type: none; padding: 10px;"><i class="fas fa-home"></i>:Gurugaou Haryana</li> 
+
+
+        <button style="width: 150px; height: 50px; padding: 10px ; margin-top: 5px; " type="button" class="btn btn-secondary float-end">LogIn</button>
+        
+          
+            <li style="list-style-type: none; padding: 10px;" class="float-end"><i class="fab fa-facebook fa-2x"></i></li>
+            <li style="list-style-type: none; padding: 10px;" class="float-end"><i class="fab fa-whatsapp fa-2x"></i></li>
+            <li style="list-style-type: none; padding: 10px;" class="float-end"><i class="fab fa-twitter fa-2x"></i></li>
+            <li style="list-style-type: none; padding: 10px;" class="float-end"><i class="fab fa-instagram fa-2x"></i></li>
+        
+
+        
+      </div>
+   </div>
+    <nav id="navbar">
+        <div id="logo">
+            <img style="width: 200px;height: 80px; " src="logo.png" alt="">
+        </div>
+
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">Emergency +</label>
+                    <a href="#">Emergency</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#">Ambulance</a></li>
+                        <li><a href="#">ICU
+                        </a></li>
+                        <li><a href="#">Doctors</a></li>
+                    </ul> 
+
+                </li>
+                <li>
+
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Specialization +</label>
+                <a href="#">Specialization</a>
+                <input type="checkbox" id="drop-2"/>
+                <ul>
+                    <li><a href="#">Bone </a></li>
+                    <li><a href="#">Dental</a></li>
+                    <li>
+                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-3" class="toggle">Operation +</label>
+                    <a href="#">Operation</a>         
+                    <input type="checkbox" id="drop-3"/>
+
+                    <ul>
+                        <li><a href="#">Cardiac arrest</a></li>
+                        <li><a href="#">Cancer </a></li>
+                        <li><a href="#">Covied</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="#">Suger</a></li>
+                <li><a href="#">Pathology </a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <script>
+              window.onscroll = function() {myFunction()};
+              
+              var navbar = document.getElementById("navbar");
+              var sticky = navbar.offsetTop;
+              
+              function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                  navbar.classList.add("sticky")
+                } else {
+                  navbar.classList.remove("sticky");
+                }
+              }
+              </script>
+        </nav>
+        <section class="section5">
+          <div class="header" >
+            <div class="message-box" >
+              <h1 class="title"><span style="color: rgb(199, 16, 16); font-size: 70px; font-weight: 1200; ">Medi</span><samp style="color: darkblue; font-size: 50px; font-weight: 900;">Zome</samp></h1>
+              
+              
+              <div class="mask">
+                <div class="card-container">
+                  <div class="card6 activeCard">
+                    <h1 style="color: black; font-size: 13px;">We provied medical-equipment</h1>
+                    <p>We can make and implement through iot and robetics contain manitain to it</p>
+                  </div>
+                  <div class="card6">
+                    <h1>We also dile on Hospital </h1>
+                    <p>We have large conecting Hospital in india ald exellent enviroment here.</p>
+                  </div>
+                  <div class="card6">
+                    <h1>Also work on it sporrt</h1>
+                    <p>We provide the Hospital a software sport and other appllication and mantain.</p>
+                  </div>
+                  <div class="card6">
+                    <h1>we also provied medical</h1>
+                    <p>We also delvier medicine and equipment</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pagination-container">
+                <div class="pagination-forward-container">
+                  <span class="forward-arrow"></span>
+                </div>
+                <div class="pagination-dot-container"></div>
+              </div>
+            </div>
+            <div class="mask">
+              <div class="canvas-container">
+                <div class="canvas slide-1 activeSlide"></div>
+                <div class="canvas slide-2"></div>
+                <div class="canvas slide-3"></div>
+                <div class="canvas slide-4"></div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+        
+          </div>
+        
+        
+          <script src="index.js"></script>
+        
+        </section>
+
+      
+
+        <!-- Section par two-->
+
+
+
+
+        <section style=" text-align: center;">
+          <h1 style="align-items: center;color: black; font-size: 20px;">We Work on</h1>
+          <div class="part1" style="margin-left: 70;">
+          <div class="carda carda-1">
+                
+            <img style="width: 100px; height: 100px; border-radius: 50%;" src="logo1.png" alt="">
+            <h2>Hospital</h2>
+            <p>we provied the high qulities of madicine and other componert commman and mantain some othe formati and nurese etc</p>
+         
+            <a style="color: blue; text-decoration: none;" href="">seemore</a>
+          </div>
+          <div class="carda carda-1">
+            
+            <img style="width: 100px; height: 100px; border-radius: 50%;" src="logo2.jpg" alt="">
+            <h2> Medical equipment</h2>
+            <p>we provied the high qulities of madicine and other componert commman and mantain some othe formati and nurese etc</p>
+            <a style="color: blue; text-decoration: none;" href="">seemore</a>
+            
+          </div>
+          <div class="carda carda-2">
+              
+            <img style="width: 100px; height: 100px; border-radius: 50%;" src="logo3.jpg" alt="">
+            <h2>Patient transport</h2>
+            <p>we provied the high qulities of madicine and other componert commman and mantain some othe formati and nurese etc</p>
+            <a style="color: blue; text-decoration: none;" href="">seemore</a>
+          </div>
+        </div>
+        <div class="part1" style="margin-left: 70;">
+          <div class="carda carda-1">
+                
+            <img style="width: 100px; height: 100px; border-radius: 50%;"src="logo4.png" alt="">
+            <h2> Training</h2>
+            <p>we provied the high qulities of madicine and other componert commman and mantain some othe formati and nurese etc</p>
+            <a style="color: blue; text-decoration: none;" href="">seemore</a>
+          </div>
+          <div class="carda carda-1">
+            
+            <img style="width: 100px; height: 100px; border-radius: 50%;" src="logo5.webp" alt="">
+            <h2> Generic drugs</h2>
+            <p>we provied the high qulities of madicine and other componert commman and mantain some othe formati and nurese etc</p>
+            <a style="color: blue; text-decoration: none;" href="">seemore</a>
+          </div>
+          <div class="carda carda-2">
+              
+            <img style="width: 100px; height: 100px; border-radius: 50%;" src="logo5.webp"alt="">
+            <h2> Pharmacy</h2>
+            <p>we provied the high qulities of madicine and other componert commman and mantain some othe formati and nurese etc</p>
+            <a style="color: blue; text-decoration: none;" href="">seemore</a>
+          </div>
+        </div>
+          
+        </section>
+
+        
+          
+           
+          <section class="doctor" style="align-items: center; text-align: center;">
+            <h1 style="color: black; font-size: 20px;">Doctors</h1>
+            <div class="part2" >
+            <div class="card">
+                
+              <img style="width: 200px; height: 150px;" src="https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png" alt="">
+              <h2> Dr Rohan</h2>
+              <p>he is a  child doctor also he have 8 year of experience</p>
+              <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">Contact</button>
+            </div>
+            <div class="card card-1">
+              
+              <img style="width: 200px; height: 150px;" src="https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png" alt="">
+              <h2> Dr Ashok</h2>
+              <p>he is a  child doctor also he have 8 year of experience</p>
+              <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">Contact</button>
+            </div>
+            <div class="card card-2">
+                
+              <img style="width: 200px; height: 150px;" src="https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png" alt="">
+              <h2> Dr Mohan</h2>
+              <p>he is a  child doctor also he have 8 year of experience</p>
+              <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">Contact</button>
+            </div>
+            <div class="card card-3">
+                
+              <img style="width: 200px; height: 150px;" src="https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png" alt="">
+              <h2> Dr Nibin</h2>
+              <p>he is a  child doctor also he have 8 year of experience</p>
+              <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">Contact</button>
+            </div>
+            <div class="card card-4">
+                
+              <img style="width: 200px; height: 150px;" src="https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png" alt="">
+              <h2> Dr Gupta</h2>
+              <p>he is a  child doctor also he have 8 year of experience</p>
+              <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">Contact</button>
+            </div>
+            <div class="card card-5">
+                
+              <img style="width: 200px; height: 150px;" src="https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png" alt="">
+              <h2> Dr Mishra</h2>
+              <p>he is a  child doctor also he have 8 year of experience</p>
+              <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">Contact</button>
+            </div>
+            </div>
+          </section>
+
+<!--Product-->
+<section class="doctor" style="align-items: center; background-color: white; text-align: center;">
+  <h1 style="text-align: center; color: black; font-size: 20px;">products on Iot</h1>
+  <div class="part3">
+  <div class="cardb">
+      
+    <img style="width: 150px; height: 150px; margin-top: 10px; border-radius: 50%;" src="https://www.beltmannlogistics.com/wp-content/uploads/2019/01/medical-equipment-transportation.png" alt="">
+    <h2> Product1</h2>
+    <p> this is advance tecnology  medical-equipment full all the things that we requires and make it contain emliment ever things here</p>
+    <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">buy</button>  </div>
+  <div class="cardb cardb-1">
+    
+    <img style="width: 150px; height: 150px; margin-top: 10px; border-radius: 50%;" src="https://www.beltmannlogistics.com/wp-content/uploads/2019/01/medical-equipment-transportation.png" alt="">
+    <h2> product2</h2>
+    <p> this is advance tecnology  medical-equipment full all the things that we requires and make it contain emliment ever things here</p>
+
+    <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">buy</button>  </div>
+  <div class="cardb cardb-2">
+      
+    <img style="width: 150px; height: 150px; margin-top: 10px; border-radius: 50%;" src="https://www.beltmannlogistics.com/wp-content/uploads/2019/01/medical-equipment-transportation.png" alt="">
+    <h2> product3</h2>
+    <p> this is advance tecnology  medical-equipment full all the things that we requires and make it contain emliment ever things here</p>
+
+    <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">buy</button>  </div>
+  <div class="cardb cardb-3">
+      
+    <img style="width: 150px; height: 150px; margin-top: 10px; border-radius: 50%;"src="https://www.beltmannlogistics.com/wp-content/uploads/2019/01/medical-equipment-transportation.png" alt="">
+    <h2> product4</h2>
+    <p> this is advance tecnology  medical-equipment full all the things that we requires and make it contain emliment ever things here</p>
+
+    <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">buy</button>  </div>
+  <div class="cardb cardb-4">
+      
+    <img style="width: 150px; height: 150px; margin-top: 10px; border-radius: 50%;" src="https://www.beltmannlogistics.com/wp-content/uploads/2019/01/medical-equipment-transportation.png" alt="">
+    <h2> product5</h2>
+    <p> this is advance tecnology  medical-equipment full all the things that we requires and make it contain emliment ever things here</p>
+
+    <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">buy</button> 
+   </div>
+  <div class="cardb cardb-5">
+      
+    <img style="width: 150px; height: 150px; margin-top: 10px; border-radius: 50%;" src="https://www.beltmannlogistics.com/wp-content/uploads/2019/01/medical-equipment-transportation.png" alt="">
+    <h2> product6</h2>
+    <p> this is advance tecnology  medical-equipment full all the things that we requires and make it contain emliment ever things here</p>
+    <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">buy</button> 
+  </div>
+     <div class="cardb cardb-5">
+      
+    <img style="width: 150px; height: 150px; margin-top: 10px; border-radius: 50%;" src="https://www.beltmannlogistics.com/wp-content/uploads/2019/01/medical-equipment-transportation.png" alt="">
+    <h2> product7</h2>
+    <p> this is advance tecnology  medical-equipment full all the things that we requires and make it contain emliment ever things here</p>
+    <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">buy</button> 
+   </div>
+  <div class="cardb cardb-5">
+      
+    <img style="width: 150px; height: 150px; margin-top: 10px; border-radius: 50%;" src="https://www.beltmannlogistics.com/wp-content/uploads/2019/01/medical-equipment-transportation.png" alt="">
+    <h2> product8</h2>
+    <p> this is advance tecnology  medical-equipment full all the things that we requires and make it contain emliment ever things here</p>
+    <button style="width: 100px; height: 40px; background-color: skyblue; color: black;">buy</button>
+  </div>
+</div>
+</section>
+<!--
+<section class="part4">
+  
+ 
+
+<div id="menuoptions">
+  <span id="closebutton">X</span>
+        <div id="StartChat" class="StartChat" tabindex="1">
+        <img src="https://philchallinor.co.uk/images/articles/chatbot.png" id="PersonIcon">
+   
+        <span id="Instruction">
+    
+            Would you like some help?
+        </span>
+    
+        </div>
+
+        <div id="chatwindow"></div>
+        <div id="usertextboxmessage">
+            <span>
+                <input id="UserInputBox" type="text">
+                <img src="https://philchallinor.co.uk/images/articles/send.png" class="message">
+            </span>
+        </div>
+    </div>
+
+<script src="2.js"></script>  
+</section> 
+-->
+<div class="l_c_h">
+	<div class="c_h">
+    	<div class="left_c">
+            <div class="left right_c left_icons">
+                   <a href="#" class="mini" style="font-size:23px;">+</a>
+            </div>
+            <div class="left center_icons"><!--center_icons-->
+                 Live help!
+            </div><!--end center_icons-->        	
+        </div>
+        <div class="right right_c" style="width:35px;">
+        	<a href="#" class="logout" title="End chat" name="" style="display:none;"><img src="chat/logout.png"></a>        	
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="chat_container" style="display: none;">
+    <p class="no_provider">
+         
+        Operator Joined the Chat.
+            </p>
+    
+	<div class="chat_message" style="display: none;">
+    <input type="hidden" class="my_user" value="">
+    	    </div>
+		<div class="chat_text_area" style="display:none;">
+        	<textarea name="messag_send" class="messag_send" id="messag_send" placeholder="Enter Your Message and press CTRL"></textarea>
+        </div>
+    	<div class="chat_entry">
+        	   <form name="chat_form" class="chat_form has-validation-callback" id="chat_form" onsubmit="return false;">
+              <p>
+                  <input type="text" data-validation="required" name="user_chat" id="user_chat" class="user_chat" placeholder="Enter Your Name">
+                  <input type="hidden" name="id" class="id" value="4919738359">
+                  <input type="hidden" name="web" class="web" value="webaddress/">
+              </p>
+              <p>
+                  <input type="text" data-validation="email" name="email_chat" id="email_chat" class="email_chat" placeholder="Enter Your Email">
+              </p>
+              <p>
+                  <input type="text" data-validation="number" name="number_chat" id="number_chat" class="number_chat" placeholder="Enter Your Number">
+              </p>
+              <p style="text-align:left;">
+                  <input type="submit" name="chat_submit" class="chat_submit" id="chat_submit" value="Start Chat">
+              </p>
+            </form>
+        </div>
+    	
+        <p class="footer_c">
+        	Powered by medizome
+        </p>
+    </div>
+    <script>
+$(function(){
+	$(".c_h").click(function(e) {
+			 if ($(".chat_container").is(":visible")) {
+				 $(".c_h .right_c .mini").text("+")
+			 } else {
+				 $(".c_h .right_c .mini").text("-")
+			 }
+			 $(".chat_container").slideToggle("slow");
+			 return false
+		 });
+ });
+</script>
+</div>
+
+<div class="button1" style="margin-left: 700px;">
+  <button style="border-radius: 50%;"   type="button" onclick="changeBodyBg('black');" ><i class="far fa-moon fa-2x"></i></button>
+  <button style="border-radius: 50%;"  type="button" onclick="changetext('white');" ><i class="fas fa-sun fa-2x"></i></button>
+  <script>
+       function changeBodyBg(color){
+        document.body.style.background = color;
+       }
+    function changetext(color){
+        
+        document.body.style.background = color;
+    }
+    
+  </script>
+</div>
+<script>
+  var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?29962';
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = url;
+  var options = {
+"enabled":true,
+"chatButtonSetting":{
+    "backgroundColor":"#4dc247",
+    "ctaText":"Contact us",
+    "borderRadius":"25",
+    "marginLeft":"0",
+    "marginBottom":"10",
+    "marginRight":"50",
+    "position":"right"
+},
+"brandSetting":{
+    "brandName":"Medizome",
+    "brandSubTitle":"Typically replies within a day",
+    "brandImg":"https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+    "welcomeText":"Hi, there!\nHow can I help you?",
+    "messageText":"Welcome Medizome how can I{{page_title}} help you",
+    "backgroundColor":"#0a5f54",
+    "ctaText":"Start Chat",
+    "borderRadius":"25",
+    "autoShow":false,
+    "phoneNumber":"918109697763"
+}
+};
+  s.onload = function() {
+      CreateWhatsappChatWidget(options);
+  };
+  var x = document.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(s, x);
+</script>
+      <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Medizome.com <i>We create some things diffreants</i> is an initiative  to help in digital world. Medizome focuses on providing the most efficient work or snippets as the work wants to be simple. We will help programmers build up concepts in different programming languages that include  Java, HTML, CSS, Bootstrap, JavaScript, PHP, , SQL and Algorithm.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Work on</h6>
+            <ul class="footer-links">
+              <li><a href="#">Hospitalt</a></li>
+              <li><a href="#">Iot products</a></li>
+              <li><a href="#">medical-equipment-transportation</a></li>
+              <li><a href="#">Training</a></li>
+              <li><a href="#">Medicine</a></li>
+              <li><a href="#">services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6><Address></Address></h6>
+            <ul class="footer-links">
+              <li>Gurugaou Haryana india</li>
+              <li></li>
+              <li> <i class="fas fa-phone-volume"> </i>6200480241</li>
+              <li>Email id- chandanrabat@gmail</li>
+              <li>website: http//:medizome.come</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">Medizome</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>   
+
+      
+       
+</body>
